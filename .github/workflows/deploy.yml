@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 建 Docker 映像（用你 mkdocs/Dockerfile；含所有外掛）
+      # 建 Docker 映像（用 mkdocs/Dockerfile；含所有外掛）
       - name: Build image
         run: docker build -t mkdocs-site ./mkdocs
 
