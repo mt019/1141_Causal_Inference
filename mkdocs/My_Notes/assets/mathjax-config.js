@@ -17,7 +17,7 @@ window.MathJax = {
 
     // 避免處理特定 class 的區塊，例如：
     // - mermaid：保留給 Mermaid.js 繪圖，不讓 $...$ 被誤判成數學
-    // - no-math：自訂 class，可套在你不想被解析的區塊
+    // - no-math：自訂 class，可套在不想被解析的區塊
     ignoreHtmlClass: 'mermaid|no-math'
   }
 };
